@@ -6,7 +6,7 @@ for line in fi:
     if len(line) < 3:
         continue
     
-    if line[0] == '!' || line[0] == '[':
+    if line[0] == '!' or line[0] == '[':
         continue
     if "#@#" in line:
         continue
